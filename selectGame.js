@@ -20,6 +20,6 @@ function button() {
     if(selected === "Easy"){
         window.location.href = 'humanVsRobotEasy.html'
     }else if (selected === "Medium"){
-        window.location.href = 'humanVsRobotMedium.html'
+        window.location.href = 'HumanVsRobotMedium.html'
     }
 }
