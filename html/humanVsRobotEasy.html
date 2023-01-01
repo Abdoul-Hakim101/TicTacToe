@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe-Easy</title>
+  <link rel="icon"  href="../images/game.svg">
+  <link rel="stylesheet" href="../styles/HumanVsHuman.css">
+</head>
+<body>
+<div class="main-container">
+  <div class="container">
+    <button class="box" onclick="game(0)" id="0"></button>
+    <button class="box" onclick="game(1)" id="1"></button>
+    <button class="box" onclick="game(2)" id="2"></button>
+    <button class="box" onclick="game(3)" id="3"></button>
+    <button class="box" onclick="game(4)" id="4"></button>
+    <button class="box" onclick="game(5)" id="5"></button>
+    <button class="box" onclick="game(6)" id="6"></button>
+    <button class="box" onclick="game(7)" id="7"></button>
+    <button class="box" onclick="game(8)" id="8"></button>
+  </div>
+  <div class="footer">
+    <p id="gameState">Game not started</p>
+    <button class="button" onclick="back()">Back</button>
+    <button class="button" onclick="reset()">Reset</button>
+  </div>
+</div>
+<script src="../scripts/checkGameStatus.js"></script>
+<script src="../scripts/humanVsRobotEasy.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Rules</title>
+    <link rel="icon"  href="../images/game.svg">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/styleGameRules.css">
+</head>
+<body>
+<div class="main-container">
+    <div class="header">
+        <h1>RULES FOR<br>TIC-TAC-TOE</h1>
+        <p>Tic-tac-toe is a two player paper-and-pencil game, also known as noughts and crosses or Xs and Os.</p>
+        <p>The game is played on a 3x3 grid. The players take turns placing their symbol (either an X or an O) on an
+            empty square on the grid. The first player to get three of their symbols in a row (horizontally, vertically,
+            or diagonally) wins the game. If all the squares on the grid are filled and no player has won, the game
+            is a draw.</p>
+        <ol class="rules">
+            <li>Choose who will go first (either X or O).</li>
+            <li>The first player places their symbol on an empty square on the grid.</li>
+            <li>The second player places their symbol on an empty square on the grid.</li>
+            <li>The first player takes their turn again, and so on, until one of the players gets three of their symbols
+                in a row or all of the squares on the grid are filled
+            </li>
+            <li>If a player gets three of their symbols in a row, they win the game. If all the squares on the grid are
+                filled and no player has won, the game is a draw.
+            </li>
+        </ol>
+        <p>That's all there is to it! Tic-tac-toe is a simple but fun game that can be enjoyed by people of all
+            ages.</p>
+    </div>
+    <div class="footer">
+        <button id="button" onclick="nextButton()">Next</button>
+    </div>
+</div>
+<script>
+    function nextButton() {
+        window.location.href = "SelectGame.html";
+    }
+</script>
+</body>
+</html>

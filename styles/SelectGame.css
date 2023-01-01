@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 100px;
+}
+.header select {
+    background-color: #4f2f2f;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0 80px 90px;
+}

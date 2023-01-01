@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.rules{
+    margin: 5px 0 5px 40px;
+}

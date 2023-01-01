@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select Player</title>
+  <link rel="icon"  href="../images/game.svg">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/SelectGame.css">
+</head>
+<body>
+<div class="main-container">
+  <div class="header">
+    <h1>Choose a game:</h1>
+    <select id="players" onclick="selected()">
+      <option value="undecided">--Please choose an option--</option>
+      <option value="friend">Play against a friend</option>
+      <option value="robot">Play against a robot</option>
+    </select>
+  </div>
+  <div class="footer">
+    <button id="button" onclick="button()">Next</button>
+  </div>
+</div>
+<script src="../scripts/selectGame.js"></script>
+</body>
+</html>
