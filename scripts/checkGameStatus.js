@@ -46,7 +46,7 @@ function setDisableButtons(boolean) {
     }
 }
 function back(){
-    window.location.href = 'SelectGame.docs';
+    window.location.href = 'selectGame.html';
 }
 function reset() {
     for (let i = 0; i < 9; i++) {

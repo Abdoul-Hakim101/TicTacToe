@@ -12,14 +12,14 @@ function selected() {
 
 function button() {
     if (selectedPlayer === "friend") {
-        window.location.href = 'HumanVsHuman.docs';
+        window.location.href = 'HumanVsHuman.html';
     }else if (selectedPlayer === "robot"){
-       window.location.href = 'SelectRobotLevel.docs';
+       window.location.href = 'SelectRobotLevel.html';
     }
     let selected = document.getElementById("level").value;
     if(selected === "Easy"){
-        window.location.href = 'humanVsRobotEasy.docs'
+        window.location.href = 'humanVsRobotEasy.html'
     }else if (selected === "Medium"){
-        window.location.href = 'humanVsRobotMedium.docs'
+        window.location.href = 'humanVsRobotMedium.html'
     }
 }
